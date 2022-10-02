@@ -21,6 +21,20 @@ int num = 29;
 //         }
 
 //         if (!flag)
+  background-repeat: no-repeat, repeat;
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-blend-mode: lighten;
+}
+
+int num = 29;
+        boolean flag = false;
+        for(int i = 2; i <= num/2; ++i)
+        {
+            if(num %  if (!flag)
+            System.out.println(num + " is a prime number.");
+        else
+            System.out.println(num + " is not a prime number.");
+
 //             System.out.println(num + " is a prime number.");
 //         else
 //             System.out.println(num + " is not a prime number.");
