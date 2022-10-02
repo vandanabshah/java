@@ -46,7 +46,22 @@ int num = 29;
 public interface UserService {
 	// create user
 	public UserEntity createUser(UserEntity user) thr;
-	
+	ntity createUser(UserEntity user) throws Exception;
+
+	// get user by email
+	public List getUser(String email) throws Exception      {
+            if(num % i == 0)
+            {
+                flag = true;
+                break;
+            }
+        }
+
+        if (!flag)
+            System.out.println(num + " is a prime number.");
+        else
+            System.out.println(num + " is not a prime number.");
+
 	// get user by data
 	public List getUser(String data) throws Exception;
 }
