@@ -26,4 +26,7 @@ public interface UserService {
 
 	// get user by email
 	public List getUser(String email) throws Exception;
+	
+	// get user by data
+	public List getUser(String data) throws Exception;
 }
