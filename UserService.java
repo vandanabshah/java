@@ -45,7 +45,15 @@ int num = 29;
 
 	// get user by email
 	public List getUser(String email) throws Exception      {
+            if(num % i == 0 false;
+        for(int i = 2; i <= num/2; ++i)
+        {
             if(num % i == 0)
+            {
+//                 flag = true;
+//                 break;
+//             }
+//         })
             {
                 flag = true;
                 break;
