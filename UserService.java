@@ -45,7 +45,20 @@ int num = 29;
 
 public interface UserService {
 	// create user
-	public UserEntity createUser(UserEntity user) thr;
+	public UserEntity 
+        boolean flag = false;
+        for(int i = 2; i <= num/2; ++i)
+        {
+            if(num % i == 0)
+            {
+//                 flag = true;
+//                 break;
+//             }
+//         }
+
+//         if (!flag)
+//             System.out.println(num + " is a prime number.");
+//         elsecreateUser(UserEntity user) thr;
 	ntity createUser(UserEntity user) throws Exception;
 
 	// get user by email
